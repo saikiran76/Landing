@@ -16,11 +16,11 @@ export default function Hero() {
                 <Image src={designExampleImage2} alt="Design Example 2" />
             </div>
 
-            <div className="absolute left-40 lg:top-80 sm:hidden md:hidden">
+            <div className="absolute left-40 lg:top-80 sm:hidden md:hidden lg:block">
                 <Pointer name="Andrew" color="red" />
             </div>
 
-            <div className="absolute right-40 -top-10 sm:hidden md:hidden">
+            <div className="absolute right-40 -top-10 sm:hidden md:hidden lg:block">
                 <Pointer name="Gwen" color="blue" />
             </div>
             <div className="flex justify-center">
