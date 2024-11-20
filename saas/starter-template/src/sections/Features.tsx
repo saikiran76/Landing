@@ -30,7 +30,7 @@ export default function Features() {
                     Where power meets <span className="text-lime-400">simplicity</span>
                 </h2>
 
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-1 gap-8"> 
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8"> 
                     <FeatureCard title="Real-time Collaboration" description="Work with others in real-time with conflict-free editing." className="col-span-1">
                         <div className="flex aspect-video items-center justify-center">
                             <Avatar className="z-40">
@@ -68,7 +68,7 @@ export default function Features() {
                 </div>
                 <div className="mt-8 flex flex-wrap gap-3 justify-center">
                     {features.map((feature, index) => (
-                        <div className="bg-neutral-900 border-white/10 inline-flex px-3 py-1.5 items-center justify-center rounded-2xl gap-3" key={index}>
+                        <div className="bg-neutral-900 border-white/10 inline-flex px-3 py-1.5 md:py-2 items-center justify-center rounded-2xl gap-3" key={index}>
                             <span className="bg-lime-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl">&#10038;</span>
                             <span className="font-medium">{feature}</span>
                         </div>
