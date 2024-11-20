@@ -2,6 +2,7 @@
 
 const nextConfig= {
   /* config options here */
+  transpilePackages: ['framer-motion']
 };
 
 module.exports = nextConfig;
